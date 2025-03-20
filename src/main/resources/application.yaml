@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springrolesecurityandjwt1
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+#  security:
+#    user:
+#      name: sk
+#      password: 362004
